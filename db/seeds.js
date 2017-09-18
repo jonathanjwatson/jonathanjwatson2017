@@ -11,17 +11,15 @@ Project.remove({}, (err) => console.log(err));
 
 const blackjack = new Project({
     title: "Blackjack",
-    description: ,
+    description: "For project one, I created a single-deck blackjack game. When players come to the site, they are greeted with a deal button which, when clicked, deals four cards at random. Two cards are the player's cards and are shown face up. Two cards are the dealer's cards, but only one is shown face up.",
     tagline: "A single-deck game of skill and luck.",
-    imgUrl: String,
-    githubUrl: String,
-    trelloUrl: String,
-    siteUrl: String
+    imgUrl: "https://res.cloudinary.com/pictureswarm/image/upload/v1505759984/Blackjack_anemgy.jpg",
+    githubUrl: "https://github.com/jwats287/blackjack",
+    trelloUrl: "https://trello.com/b/pmZG1PhD/blackjack",
+    siteUrl: "https://blackjack-monkey.herokuapp.com/"
 });
 
 
-
-popMusic.save().then(() => console.log("Category Saved!"));
-game.save().then(() => console.log("Game Saved!"))
+blackjack.save().then(() => console.log("Project Saved!"))
 
 mongoose.connection.close();
