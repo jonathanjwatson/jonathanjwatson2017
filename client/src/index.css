@@ -1,5 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+.App {
+  text-align:center;
+  width:auto;
+  overflow: hidden;
+  max-width: auto;
+  padding:0 0;
+}
+.splash-image{
+  background-color: #f8f8f8;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 1rem;
+  color: #000;
+  font-family: 'Lato';
+  justify-content: center;
+  align-items: center;
+  position:relative;
+  padding-bottom:3em;
+  text-align:center;
+  height: 100%
+}
+.splash-image h1{
+  font-size: 5em;
+  color: #000;
 }
