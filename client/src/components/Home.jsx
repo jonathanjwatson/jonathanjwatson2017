@@ -13,18 +13,20 @@ class Home extends Component {
                 </div>
                 <PortfolioCarousel />
                 <p>I spent the last three years doing front-end development as part of a Marketing team. Now, I create full-stack CRUD apps, RESTful routes, and elegant code.</p>
-                <p>
+                <h4>
                 I work with: 
-                <ul className="skills-list">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>JQuery</li>
-                <li>ES6</li>
-                <li>React</li>
-                <li>Ruby on Rails</li>
-                </ul>
+                </h4>
+                <div className="skills">
+                <p>
+                React &bull; Node.JS &bull; Express &bull; MongoDB &bull; PostgreSQL &bull; Ruby &bull; Rails &bull; HTML &bull; CSS &bull; JavaScript &bull; JQuery
+                <br />
+                </p>
+                </div>
+                <div className="row">
+                <h4>Looking to Hire?</h4>
+                <p>
                 If you're looking for a freelance developer, message me at jonathan@agiledevelopmentconsulting.com. I'm always looking to meet new people. Feel free to reach out at dev.jonathanwatson@gmail.com. </p>
+                </div>
                 </div>
                 <div id="resume">
                 <p>Download my resume here</p>
