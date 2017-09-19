@@ -50,10 +50,10 @@ class PortfolioCarousel extends Component {
     }
     render() {
         return (
-            <div>
+            <div id="Projects">
             
             <StyleRoot>
-            <h2>Portfolio Projects</h2>
+            <h3>Portfolio Projects</h3>
                 <Coverflow
                         media={{
                             '@media (max-width: 900px)': {
