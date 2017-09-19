@@ -75,6 +75,9 @@ h4{
 p{
   font-family: 'Roboto Slab';
 }
+a{
+  color: #2b729e;
+}
 .skills{
   width:50%;
   margin:auto;

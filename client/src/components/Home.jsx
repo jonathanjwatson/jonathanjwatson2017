@@ -32,13 +32,15 @@ class Home extends Component {
                 <div className="splash-image hire">
                     <div className="row">
                         <h4>Looking to Hire?</h4>
-                        <p>If you're looking for a freelance developer, message me at jonathan@agiledevelopmentconsulting.com. I'm always looking to meet new people. Feel free to reach out at dev.jonathanwatson@gmail.com. 
+                        <div className="row">
+                        <p>If you're looking for a freelance developer, visit <a href="http://www.agiledevelopmentconsulting.com">Agile Development Consulting</a>. I'm always looking to meet new people. Feel free to reach out at <a href="mailto:dev.jonathanwatson@gmail.com">dev.jonathanwatson@gmail.com</a>. 
                             <br />
                             Or, fill out the form below.
                         </p>
+                        </div>
                     </div>
                     <div id="resume">
-                    <p className="button button-primary">Download my resume here</p>
+                    <a href="https://www.dropbox.com/s/nw1anzaifhkeedf/JonathanJWatson-Resume-Dev-Master.pdf?dl=0" target="_blank"><p className="button button-primary">Download my resume here</p></a>
                 </div>
                 </div>
             </div>
