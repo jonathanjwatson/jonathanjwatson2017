@@ -5,14 +5,18 @@ class Home extends Component {
     render() {
         return (
             <div>
-            <div className="splash-image">
+            <div className="splash-image bio">
             <div className="row">
                 <div className="site-description">
-                <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/000/2b6/122/332e953.jpg" />
-                <p>Hi, I'm Jonathan. I am a full-stack Web Developer looking for new opportunities. I provide creative solutions and have an eye for detail. I like to help people. I believe in shipping first and iterating improvements, because the customer knows what they want.</p>
+                    <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/5/000/2b6/122/332e953.jpg" />
+                    <p>Hi, I'm Jonathan. I am a full-stack Web Developer looking for new opportunities. I provide creative solutions and have an eye for detail. I like to help people. I believe in shipping first and iterating improvements, because the customer knows what they want.</p>
                 </div>
+            </div>
+            </div>
+            <div className="splash-image projects">
+            <div className="row">
                 <PortfolioCarousel />
-                <p>I spent the last three years doing front-end development as part of a Marketing team. Now, I create full-stack CRUD apps, RESTful routes, and elegant code.</p>
+                <p>I spent the last three years doing front-end development as part of a marketing team. Now, I create full-stack CRUD apps, RESTful routes, and elegant code.</p>
                 <h4>
                 I work with: 
                 </h4>
