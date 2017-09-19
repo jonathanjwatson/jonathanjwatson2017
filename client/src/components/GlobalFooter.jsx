@@ -28,6 +28,9 @@ const CustomNav = styled.div`
       color: white;
     }
   }
+  h3 {
+      color:white;
+  }
   span {
     color: #3AA9EA;
   }
@@ -40,9 +43,8 @@ class GlobalNav extends Component {
   render() {
     return (
       <CustomNav>
-        <Link to="/">
-          <h1>Jonathan J. Watson</h1>
-        </Link>
+      
+          <h3>Copyright 2017</h3>
         <div>
           <a href="/#Projects">Projects</a>
           |

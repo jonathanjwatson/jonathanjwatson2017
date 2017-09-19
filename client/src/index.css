@@ -66,11 +66,14 @@ body {
   padding-top:1em;
   font-family: 'Lato';
 }
-.splash-image h4{
+h4{
   font-size: 1.5em;
   margin-top:0;
   font-family: 'Lato';
   padding-top:1em;
+}
+p{
+  font-family: 'Roboto Slab';
 }
 .skills{
   width:50%;
@@ -89,6 +92,41 @@ body {
 }
 .projects{
   background-color: #fff;
+}
+.button {
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius:4px;
+  font-size:1rem;
+}
+.button-primary{
+background-color: #2b729e;
+color: white;
+border: none;
+}
+.contact{
+  text-align:center;
+  margin:auto;
+  min-height: 5em;
+  padding-top: 2.5em;
+}
+input{
+  width:40%;
+  height:1em;
+  margin-bottom:2em;
+  font-size:1em;
+  font-weight:700;
+  padding:1em;
+  border:2px solid black;
+  border-radius: 4px;
+}
+.contactForm{
+  padding-bottom:2em;
+}
+.hire{
+  background-color: #f8f8f8;
 }
 
 @media only screen and (max-width: 600px) {

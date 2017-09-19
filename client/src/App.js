@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Home from "./components/Home";
 import GlobalNav from "./components/GlobalNav";
+import GlobalFooter from "./components/GlobalFooter";
 import './App.css';
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
         <div>
         <Route exact path="/" component={Home} />
         </div>
+        <GlobalFooter />
         </div>
       </Router>
       </div>
