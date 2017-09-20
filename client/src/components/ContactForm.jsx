@@ -22,7 +22,7 @@ class ContactForm extends Component {
         this.setState({ contactInfo })
     }
     _handleSubmit = (e) => {
-        // e.preventDefault();
+        e.preventDefault();
         const payload = this.state;
         axios.post(`/sayHello`, payload)
         .then((res) => {

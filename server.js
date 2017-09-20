@@ -4,6 +4,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const app = express();
 const ProjectsController = require("./controllers/project");
+const NodemailerController = require("./controllers/nodemailer");
 mongoose.Promise = global.Promise;
 mongoose.connect(process.env.MONGODB_URI); //mongodb://localhost/jonathanjwatson
 
@@ -19,6 +20,7 @@ connection.on('error', (err) => {
 
 app.use(bodyParser.json());
 
+app.use('/sayHello', NodemailerController);
 app.use('/api/project', ProjectsController);
 // app.use('/sayHello', NodemailerController);
 app.use(express.static(__dirname + '/client/build/'));
