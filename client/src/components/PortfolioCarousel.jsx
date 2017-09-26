@@ -71,8 +71,15 @@ class PortfolioCarousel extends Component {
                         active={this.state.active} >
                     {this.state.projects.map((project, index) => (
                     <div key={index}>
+                            
                             <img src={project.imgUrl} width="100%" />
-                            <div className="game-list">{project.title}</div>
+                            <div className="game-list">
+                                <a href={project.siteUrl}>
+                                {project.title}
+                                </a>
+                            </div>
+                            <div className="game-list"><a href={project.githubUrl}>Github</a></div>
+                            
                     </div>
                     ))} 
                     </Coverflow>
