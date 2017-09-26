@@ -40,7 +40,7 @@ class Home extends Component {
                         </div>
                     </div>
                     <div id="resume">
-                    <a href="https://www.dropbox.com/s/nw1anzaifhkeedf/JonathanJWatson-Resume-Dev-Master.pdf?dl=0" target="_blank"><p className="button button-primary">Download my resume here</p></a>
+                    <a href="https://www.dropbox.com/s/m55vtodd56gtnjc/JonathanJWatson-Resume-Dev-Master.pdf?dl=0" target="_blank"><p className="button button-primary">Download my resume here</p></a>
                 </div>
                 </div>
             </div>
