@@ -68,17 +68,18 @@ class PortfolioCarousel extends Component {
                         displayQuantityOfSide={1}
                         navigation={true}
                         enableHeading={false}
-                        active={this.state.active} >
+                        active={this.state.active}
+                        clickable={true} >
                     {this.state.projects.map((project, index) => (
-                    <div key={index}>
+                        
+                    <div key={index} data-action={project.siteUrl}>
                             
-                            <img src={project.imgUrl} width="100%" />
+                            <img src={project.imgUrl} width="100%"/>
                             <div className="game-list">
-                                <a href={project.siteUrl}>
+                                <a href={project.siteUrl} target="_blank">
                                 {project.title}
                                 </a>
                             </div>
-                            <div className="game-list"><a href={project.githubUrl}>Github</a></div>
                             
                     </div>
                     ))} 
